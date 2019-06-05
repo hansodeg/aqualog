@@ -1,0 +1,288 @@
+html  {
+height: 100%;
+box-sizing: border-box;
+}
+body {
+  background-color:#0B3C5D;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  }
+
+  h1 {
+  font-family: 'Major Mono Display';
+  font-size:68px;
+  font-weight:bold;
+  text-align:center;
+  color: #328CC1;
+  }
+ 
+  h2 {
+  font-family:'Ubuntu',
+  sans-serif;
+  text-align:center;
+  font-size: 20px;
+  color:#0B3C5D;
+  font-weight:bold;
+  }
+
+  h4 {
+    font-family:'Ubuntu',
+    sans-serif;
+    text-align:left;
+    font-size: 20px;
+    color:#0B3C5D;
+    font-weight:bold;
+
+  }
+  
+  .buttongroup {
+  position:relative;
+  text-align: center;
+   padding-top:3em;
+   }
+  
+  button {
+  background-color: #328CC1;
+   border-radius:10px;
+   border:1px solid #0b0e07;
+   display:inline-block;
+   font-size:28px;
+   padding: 28px 50px;
+  text-shadow:0px 1px 0px#263666;
+  width:14em;
+  height:10em;
+  font-family: 'Major Mono Display';
+  font-weight: bold;
+  color: #D9B310;
+  cursor:pointer;
+  text-align:center;
+   }
+
+  button:hover {
+  opacity: 0.7;
+  }
+ 
+  .form
+  button { 
+  font-family: "Ubuntu", sans-serif;
+  text-transform:uppercase;
+   outline:0;
+  background:#D9B310;
+  width:100%;
+  height:70%;
+  border:0;
+  padding:15px;
+  color:#1D2731; 
+  font-size: 20px;
+  cursor:pointer;
+  }
+
+  .login_page {
+  width:360px;
+  margin:  auto;
+} 
+  
+  .form {
+  position: relative;
+  z-index:1;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding:45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+  } 
+  
+  .form input {
+  font-family:"Ubuntu", sans-serif;
+  outline: 0;
+  background: #f2f2f2; 
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  }
+  
+  .logger {
+  width:380px;
+   float: left;
+  }
+  
+  .prove_form {
+  position:relative;
+  z-index: 1;
+  background:#328CC1;
+  max-width: auto;
+  margin: 0 auto 100px;
+  margin-left: 1em;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  }
+
+  .prove_form input {
+  font-family: "Ubuntu", sans-serif;
+  outline: 0;
+  background:#f2f2f2;
+  width: 60%;
+  border:0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 5px;
+  }
+  
+  .prove_form button {
+   font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  outline:  0;
+  background:#D9B310;
+  width: 65%;
+  height: auto;
+  border: 0;
+  padding: 15px;
+  color:#1D2731;
+  font-size: 20px;
+  cursor: pointer;
+  }
+  
+  .lablogger {
+  width: 390px;
+  float: left;
+  height: auto;
+  }
+  
+  .sidenav {
+  height: auto;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 8em;
+  left: 0;
+  background-color:#328CC1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-radius: 5px;
+  }
+  
+  .sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  text-align:left;
+  margin-top: auto;
+  font-size: 25px;
+  color: #0b0e07;
+  display: block;
+  transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+  color: #f2f2f2;
+  }
+  
+  .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  }
+
+   .sidenav button {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    outline:  0;
+    background:#A31C1C;
+    width: 100%;
+    height: auto;
+    border: 0;
+    padding: 15px;
+    color:#f2f2f2;
+    font-size: 20px;
+    cursor: pointer;
+    float:left;
+
+  }
+
+  
+  @media screen and (max-height: 450px) {
+  .sidenav {padding-top:15px;}
+  .sidenav a {font-size: 18px;}
+  }
+  
+  span {
+  float:  left;
+  margin-top: 10px;
+  color: #D9B310;
+  padding-left: 20px;
+  
+  
+  }
+
+  #main {
+  transition: margin-left .5s;
+  padding: 0px;
+  }
+
+  table {
+    width: auto;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+  }
+  table td  {
+    border: 1px solid black;
+  }
+  
+  .present {
+    width: 1000px;
+    float: left;
+    background-color: white;
+    position:relative;
+    z-index: 1;
+    background:#328CC1;
+    max-width: auto;
+    margin: 0 auto 100px;
+    margin-left: 1em;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px   5px 0rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    font-family: Arial;
+    padding: 0;
+    color: white;
+    text-align: center;
+    height: auto;
+  }
+
+#chart {
+  border-radius: 10px;
+}
+
+.admin {
+font-family: "Ubuntu", sans-serif;
+text-transform: uppercase;
+outline:  0;
+background:#D9B310;
+width: 65%;
+height: auto;
+border: 10;
+padding: 15px;
+color:#1D2731;
+font-size: 20px;
+cursor: pointer;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
